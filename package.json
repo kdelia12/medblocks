@@ -1,0 +1,47 @@
+{
+  "name": "medicine-supply-chain",
+  "version": "1.0.0",
+  "description": "Smart contract for medicine supply chain tracking on Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:local": "npx hardhat run scripts/deploy-local.js --network localhost",
+    "deploy:simple": "npx hardhat run scripts/deploy-simple.js --network localhost",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": [
+    "ethereum",
+    "supply-chain",
+    "medicine",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.8.0",
+    "solc": "^0.8.20"
+  }
+}
