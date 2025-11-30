@@ -14,7 +14,7 @@ just copy paste this:
 ```bash
 # clone & install
 git clone <repository-url>
-cd MedBlock
+cd medblocks
 npm install
 cd frontend && npm install && cd ..
 ```
